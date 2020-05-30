@@ -1,0 +1,22 @@
+.menubar {
+  background: #00AAFF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+.menubar a {
+  text-decoration: none;
+  padding: 15px;
+  color: white;
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+.menubar a~a:hover  {
+  transition: background 0.2s;
+  background: rgb(20,190,255);
+}
+a.home {
+  color: #00AAFF;
+  background: white;
+}
