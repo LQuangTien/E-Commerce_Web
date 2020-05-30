@@ -5,16 +5,20 @@
   align-items: center;
   margin-top: 20px;
 }
-.menubar a {
+.menubar > a {
   text-decoration: none;
   padding: 15px;
   color: white;
   font-size: 1.1rem;
   font-weight: bold;
+  position: relative;
 }
 .menubar a~a:hover  {
   transition: background 0.2s;
   background: rgb(20,190,255);
+}
+.menubar a~a:hover .submenu  {
+  display: flex;
 }
 a.home {
   color: #00AAFF;

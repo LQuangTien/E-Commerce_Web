@@ -1,0 +1,26 @@
+.submenu {
+  position: absolute;
+  top: 50px;
+  left: 0;
+  color: #999;
+  font-size: 1rem;
+  justify-content: center;
+  display: none;
+  box-shadow: 0 0 5px;
+}
+.itemGroup {
+  display: flex;
+  white-space: nowrap;
+  flex-direction: column;
+  text-align: left;
+  padding: 10px 20px;
+  color: black;
+}
+.item{
+  font-weight: normal;
+  padding: 10px 30px 10px 0;
+  color: #999;
+}
+.itemGroup:not(:last-child) .item{
+  border-right: 1px solid #999;
+}
