@@ -16,11 +16,14 @@
   padding: 10px 20px;
   color: black;
 }
-.item{
+.item > a {
   font-weight: normal;
-  padding: 10px 30px 10px 0;
   color: #999;
+  text-decoration: none;
+  padding: 10px 30px 10px 0;
+  display: block;
 }
-.itemGroup:not(:last-child) .item{
+
+.itemGroup:not(:last-child) .item {
   border-right: 1px solid #999;
 }

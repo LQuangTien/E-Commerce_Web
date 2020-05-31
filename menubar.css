@@ -5,22 +5,23 @@
   align-items: center;
   margin-top: 20px;
 }
-.menubar > a {
+.menubar > div {
   text-decoration: none;
   padding: 15px;
   color: white;
   font-size: 1.1rem;
   font-weight: bold;
   position: relative;
+  cursor: pointer;
 }
-.menubar a~a:hover  {
+.menubar > div~div:hover  {
   transition: background 0.2s;
   background: rgb(20,190,255);
 }
-.menubar a~a:hover .submenu  {
+.menubar > div~div:hover .submenu  {
   display: flex;
 }
-a.home {
+div.home {
   color: #00AAFF;
   background: white;
 }
