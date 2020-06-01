@@ -1,0 +1,36 @@
+.switchTabs {
+  position: relative;
+}
+.tabPicture > img {
+  object-fit: cover;
+  width: 100%;
+
+}
+.tabPicture {
+  height: 400px;
+}
+.tabs > div.on {
+  display: block;
+}
+.tabs div {
+  display: none;
+}
+.radioBtn {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+.btn {
+  width: 12px;
+  height: 12px;
+  border-radius: 999px;
+  margin: 10px;
+  background: white;
+  opacity: 0.5;
+}
+.radioBtn div.on {
+  opacity: 1;
+}

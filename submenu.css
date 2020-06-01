@@ -1,3 +1,6 @@
+.menubar > div~div:hover .submenu {
+  display:flex;
+}
 .submenu {
   position: absolute;
   top: 50px;
@@ -5,10 +8,13 @@
   color: #999;
   font-size: 1rem;
   justify-content: center;
-  display: none;
   box-shadow: 0 0 5px;
+  background: white;
+  display:none;
+  z-index: 1;
 }
 .itemGroup {
+  position: relative;
   display: flex;
   white-space: nowrap;
   flex-direction: column;

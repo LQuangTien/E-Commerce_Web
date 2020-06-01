@@ -149,15 +149,15 @@
         let nextBtn = onBtn.index() < btns.length-1 ? onBtn.next() : btns.first();
         nextBtn.click();
       } 
-      let startSwitch = setInterval( switchTab , 2000);
-      //const setSwitch;
+      const startSwitch = setInterval( switchTab , 2000);
+
       btns.hover(function(){
         if(startSwitch){
           clearInterval(startSwitch);
         }
-       // if(setSwitch){
-       //   clearInterval(setSwitch);
-       // }
+        if(this.setSwitch){
+          clearInterval(this.setSwitch);
+        }
         this.click();
         let btnIndex = $(this).index()
         let tab = tabs.filter(function(index){
@@ -166,7 +166,7 @@
         $(tab).click();
 
       }, function(){
-         startSwitch = setInterval( switchTab , 2000);
+         this.setSwitch = setInterval( switchTab , 2000);
       })
   })
   </script>

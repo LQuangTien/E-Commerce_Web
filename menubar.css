@@ -18,9 +18,6 @@
   transition: background 0.2s;
   background: rgb(20,190,255);
 }
-.menubar > div~div:hover .submenu  {
-  display: flex;
-}
 div.home {
   color: #00AAFF;
   background: white;
