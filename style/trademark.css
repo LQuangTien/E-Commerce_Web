@@ -1,0 +1,21 @@
+.trademark {
+  margin-top: 3%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.trademark .trademarkPic {
+  border: 2px solid #00AAFF;
+  padding: 10px;
+  margin-right: 1%;
+}
+.trademarkPic > img {
+  width: 120px;
+  height: 120px;
+  transition: all 0.2s;
+}
+.trademarkPic > img:hover {
+  transform: scale(1.1);
+}
+

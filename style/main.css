@@ -1,0 +1,9 @@
+.main {
+  margin-top: 5%;
+}
+.main:not('.title') {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
