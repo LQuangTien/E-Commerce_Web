@@ -57,9 +57,9 @@
 .productContainer input:focus {
   outline: none;
 }
-#nextBtn {
+.nextBtn {
   border-radius: 0 10px 10px 0;
 }
-#prevBtn {
+.prevBtn {
   border-radius: 10px 0 0 10px;
 }

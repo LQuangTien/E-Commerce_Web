@@ -1,7 +1,7 @@
-$(function(){
-  var products = $('.productContainer div.products');
-  var nextBtn = $('#nextBtn');
-  var prevBtn = $('#prevBtn');
+function switchProduct(productContainerType){
+  const products = $(`.${productContainerType} div.products`);
+  const nextBtn = $(`.${productContainerType} .nextBtn`);
+  const prevBtn = $(`.${productContainerType} .prevBtn`);
 
   nextBtn.click(function(){
       let curProducts = products.filter('.on')
@@ -19,5 +19,7 @@ $(function(){
         .siblings('.on')
         .removeClass('on');
   }) 
-})
-
+};
+switchProduct('favorite');
+switchProduct('makeup');
+switchProduct('skincare');

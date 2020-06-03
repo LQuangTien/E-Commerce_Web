@@ -1,0 +1,28 @@
+.review {
+  height: 444px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url('../image/review/bgcustomer.png');
+  margin-top: 10%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.avt img {
+  border-radius: 999px;
+}
+.avt {
+  margin-bottom: 20px;
+}
+.reviewContent {
+  font-size: 1.1rem;
+  text-align: center;
+  width: 40%;
+}
+.reviewTitle {
+  margin-bottom: 30px;
+  color: #333;
+  font-size: 1.5rem;
+  font-weight: bold;
+}

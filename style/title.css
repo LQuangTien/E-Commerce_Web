@@ -1,6 +1,10 @@
-.title {
+.title:first-child {
   position: relative;
   margin-top: 5%;
+}
+.title:not(:first-child) {
+  position: relative;
+  margin-top: 10%;
 }
 .titleText {
   background: #00AAFF;
